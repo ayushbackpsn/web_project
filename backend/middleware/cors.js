@@ -8,7 +8,9 @@ const corsOptions = {
         const allowedOrigins = [
             process.env.FRONTEND_URL || 'http://localhost:3000',
             'http://localhost:3000',
-            'http://127.0.0.1:3000'
+            'http://127.0.0.1:3000',
+            'https://web-project-1-9w5e.onrender.com',
+            'https://web-project-y928.onrender.com'
         ];
         
         if (allowedOrigins.indexOf(origin) !== -1) {
