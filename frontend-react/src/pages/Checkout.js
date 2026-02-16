@@ -93,11 +93,12 @@ const Checkout = () => {
         }
     };
 
-    if (loading) {
+    if (submitting) {
         return (
             <div className="checkout-page">
                 <div className="loading">
-                    Loading checkout...
+                    <h2>Processing Order...</h2>
+                    <p>Please wait while we process your order.</p>
                 </div>
             </div>
         );
