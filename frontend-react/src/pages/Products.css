@@ -1,0 +1,61 @@
+.products-page {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.products-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 3rem;
+    position: relative;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.products-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #ffffff, #f0f0f0);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.size-selection {
+    margin-bottom: 1rem;
+}
+
+.size-selection label {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.size-select {
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.size-select:focus {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.size-select option {
+    background: #0a0a0a;
+    color: #ffffff;
+}

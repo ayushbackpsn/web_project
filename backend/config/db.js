@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect('mongodb://localhost:27017/shoe-store', {
+        // Replace <password> with your actual database user password
+        const conn = await mongoose.connect('mongodb+srv://ayush:<password>@cluster0.xxxxx.mongodb.net/shoe-store?retryWrites=true&w=majority', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });

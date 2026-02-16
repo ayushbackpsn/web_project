@@ -1,0 +1,22 @@
+/* Special styling for login/signup buttons in navbar */
+.login-nav-btn {
+    background: linear-gradient(45deg, #ffffff, #f0f0f0) !important;
+    color: #0a0a0a !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3) !important;
+}
+
+.signup-nav-btn {
+    background: linear-gradient(45deg, #ffffff, #f0f0f0) !important;
+    color: #0a0a0a !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.login-nav-btn:hover,
+.signup-nav-btn:hover {
+    transform: translateY(-2px) scale(1.05) !important;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4) !important;
+    background: linear-gradient(45deg, #f0f0f0, #ffffff) !important;
+}

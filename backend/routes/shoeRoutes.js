@@ -12,4 +12,18 @@ router.get('/', async (req, res) => {
     }
 });
 
+// GET /api/shoes/:id - Get single shoe by ID
+router.get('/:id', async (req, res) => {
+    try {
+        const shoe = await Shoe.findById(req.params.id);
+        if (shoe) {
+            res.json(shoe);
+        } else {
+            res.status(404).json({ message: 'Shoe not found' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Server Error' });
+    }
+});
+
 module.exports = router;
