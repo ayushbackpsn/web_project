@@ -6,7 +6,6 @@ import './Checkout.css';
 const Checkout = () => {
     const navigate = useNavigate();
     const [cart, setCart] = useState(null);
-    const [loading, setLoading] = useState(false);
     const [submitting, setSubmitting] = useState(false);
     const [formData, setFormData] = useState({
         name: '',
