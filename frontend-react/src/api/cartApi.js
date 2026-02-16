@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Get API URL based on environment
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-    ? 'https://web-project-y928.onrender.com/api'  // In production, use live backend
+    ? 'https://eb-project.onrender.com/api'  // In production, use live backend
     : 'http://localhost:5000/api'; // In development, use local backend
 
 // Get user's cart
