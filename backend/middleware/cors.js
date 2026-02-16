@@ -10,7 +10,7 @@ const corsOptions = {
             'http://localhost:3000',
             'http://127.0.0.1:3000',
             'https://web-1.onrender.com',
-            'https://eb-project.onrender.com'
+            'https://web-project-m88j.onrender.com'
         ];
         
         if (allowedOrigins.indexOf(origin) !== -1) {

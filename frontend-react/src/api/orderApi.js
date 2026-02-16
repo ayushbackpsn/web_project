@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Get API URL based on environment
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-    ? 'https://eb-project.onrender.com/api'  // In production, use live backend
+    ? 'https://web-project-m88j.onrender.com/api'  // In production, use live backend
     : 'http://localhost:5000/api'; // In development, use local backend
 
 // Create new order
